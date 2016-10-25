@@ -1,10 +1,10 @@
 public class Bear
 {
     private String gender;
-    private String legs;
+    private int legs;
     private String sound;
     
-    public Bear(String gender, String legs, String sound)
+    public Bear(String gender, int legs, String sound)
       {
         this.gender = gender;
         this.legs = legs;
@@ -15,7 +15,7 @@ public class Bear
       {
         return gender;
       }
-    public String getLegs()
+    public int getLegs()
       {
         return legs;
       }
