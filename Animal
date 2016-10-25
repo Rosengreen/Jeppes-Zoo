@@ -1,0 +1,38 @@
+
+
+public abstract class Animal extends Zoo
+}
+
+public int amountOfLegs;
+public String gender;
+public abstract malesAndFemale;
+
+    public Animal()
+    {
+    //Tilføj nyt dyr
+    z.add(new Lion("", 4, "")
+    z.add(new Bear("", 4, "")
+    
+    //Tæl antal ben
+    countLegs();
+    
+    //print lyde ud
+    z.allAnimalsMakeSounds();
+    
+    z.getNumberOfGender("male");
+    
+    }
+    
+    countLegs()
+    {
+    
+    
+    System.out.println("int amountOfLegs");
+    }
+    
+    
+    
+    
+    
+    
+}
