@@ -2,21 +2,15 @@ public class Bear
 {
     private String gender;
     private int legs = 4;
-    private String sound;
+    private String sound = "Grrrr";
     
     public Bear(String gender, int legs, String sound)
       {
-        this.gender = gender;
-        this.sound = sound;    
+        this.gender = gender;    
       }
 
     public String getGender()
       {
         return gender;
-      }
-
-    public String getSound()
-      {
-        return sound;
       }
 }
