@@ -1,13 +1,12 @@
 public class Bear
 {
     private String gender;
-    private int legs;
+    private int legs = 4;
     private String sound;
     
     public Bear(String gender, int legs, String sound)
       {
         this.gender = gender;
-        this.legs = legs;
         this.sound = sound;    
       }
 
@@ -15,10 +14,7 @@ public class Bear
       {
         return gender;
       }
-    public int getLegs()
-      {
-        return legs;
-      }
+
     public String getSound()
       {
         return sound;
