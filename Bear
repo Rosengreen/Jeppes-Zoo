@@ -1,0 +1,26 @@
+public class Bear
+{
+    private String gender;
+    private String legs;
+    private String sound;
+    
+    public Bear(String gender, String legs, String sound)
+      {
+        this.gender = gender;
+        this.legs = legs;
+        this.sound = sound;    
+      }
+
+    public String getGender()
+      {
+        return gender;
+      }
+    public String getLegs()
+      {
+        return legs;
+      }
+    public String getSound()
+      {
+        return sound;
+      }
+}
