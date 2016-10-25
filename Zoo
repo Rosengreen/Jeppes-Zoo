@@ -1,0 +1,22 @@
+Public class Zoo
+{
+   
+    private String animal;
+   
+    public Zoo()
+    {
+      List<Animals> animals = new ArrayList<>();
+      
+      System.out.println("\tLion\n");
+    }
+
+    public Animal(String animal)
+    {
+      this.animal = animal;
+    }
+
+    public String getAnimal()
+    {
+      return animal;
+    }
+}
